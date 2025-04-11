@@ -21,15 +21,14 @@ export function Iniciarsesionyregistrar(option2) {
 
          if (campers.some(camper => camper.cedula === cedula)) {
             alert("Error: Ya existe un camper con esa cédula. Intenta con otro ID.");
-            
+           
         } else {
             alert("Cédula disponible, puedes registrar el camper.");
+            let nombre = prompt("Ingresa tu nombre:");
+            campers.push({ nombre, cedula });
+            alert ("Nuevo camper registrado correctamente.");
+            alert("Bienvenido" [nombre + " " + cedula] );
         }
-
-        let nombre = prompt("Ingresa tu nombre:");
-        campers.push({ nombre, cedula });
-        alert ("Nuevo camper registrado correctamente.");
-        alert("Bienvenido" [nombre + " " + cedula] )
     } 
 
     else if (option2 === "2") {
