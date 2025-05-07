@@ -1,0 +1,225 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.Chart-interface{
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    border: 1px solid rgb(128, 123, 123);
+    margin: 7vh 0vw 0vw 20vw;
+    width: 60vw; 
+    height: 60vh;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+.Chart-interface_MainTitle{
+    position: fixed;
+    display: flex;
+    background-color: rgb(235, 235, 235);
+    margin:-2vw 0vw 0vw -0.1vw;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+border: 1px solid;
+    width: 60.1vw;
+    height: 3.5vw;
+}
+.Chart-interface_MainTitle p{
+margin: 2vh 0vw 0vw 1vw;
+font-size: 1.3vw;
+}
+
+.Chartinterface__Nombre-actor{
+    margin: -9.5vh 0vw 0vw 30vw;
+    
+
+}
+.Chartinterface__Nombre-actor p{
+    font-size: 0.9vw;
+
+}
+.Chartinterface__Nombre-actor input{
+width: 25vw;
+height: 4vh;
+border-radius: 5px; 
+border: 0.5px solid rgb(141, 138, 138);
+background-color: rgba(232, 232, 232, 0.527);   
+
+
+}
+
+.Chartinterface__Edad{
+    margin: 1vh 0vw 0vw 1vw
+
+}
+.Chartinterface__Edad input{
+    width: 25vw;
+    height: 3.7vh;
+    border-radius: 5px; 
+    border: 0.5px solid rgb(141, 138, 138);
+    background-color: rgba(232, 232, 232, 0.527);   
+}
+.Chartinterface__Edad p{
+    font-size: 0.9vw;
+
+}
+.Chart-interface__Nombre-Personaje{
+    margin: 1vh 0vw 0vw 1vw;
+}
+.Chart-interface__Nombre-Personaje input{
+    width: 25vw;
+height: 3.7vh;
+border-radius: 5px; 
+border: 0.5px solid rgb(141, 138, 138);
+background-color: rgba(232, 232, 232, 0.527);   
+
+}
+.Chart-interface__Nombre-Personaje p{
+    font-size: 0.9vw;
+
+}
+.Chart-interface_Title{
+    font-size: 1.5vw;
+    margin: 2vh 0vw 0vw 1vw;
+    height: 2.2vw;
+}
+
+.Chartinterface__Ubicacion{
+    margin: -9.2vh 0vw 0vw 30vw;
+
+
+}
+.Chartinterface__Ubicacion p{
+    font-size: 0.9vw;
+}
+.Chartinterface__Ubicacion input{
+    width: 25vw;
+height: 3.7vh;
+border-radius: 5px; 
+border: 0.5px solid rgb(141, 138, 138);
+background-color: rgba(232, 232, 232, 0.527);   
+}
+
+.Chartinterface__Poster{
+    margin: 1vw 0vw 0vw 1vw; 
+}
+.Chartinterface__Poster p{
+    font-size: 0.9vw;
+
+}
+.Chartinterface__Poster input{
+    width: 25vw;
+    height: 3.7vh;
+    border-radius: 5px; 
+    border: 0.5px solid rgb(141, 138, 138);
+    background-color: rgba(232, 232, 232, 0.527);  
+}
+.Chartinterface__Fecha{
+    margin: -9.2vh 0vw 0vw 30vw;
+
+}
+.Chartinterface__Fecha p{
+    font-size: 0.9vw;
+
+}
+
+.Chartinterface__Fecha input{
+    width: 25vw;
+    height: 4vh;
+    border-radius: 5px; 
+    border: 0.5px solid rgb(141, 138, 138);
+    background-color: rgba(232, 232, 232, 0.527);  
+    font-size: 0.8vw;
+}
+.Chartinterface__Productora{
+    margin: 1vw 0vw 0vw 1vw; 
+
+}
+.Chartinterface__Productora select{
+    width: 55vw;
+    height: 4vh;
+    border-radius: 5px; 
+    border: 0.5px solid rgb(141, 138, 138);
+    background-color: rgba(232, 232, 232, 0.527);  
+    font-size: 0.8vw;
+}
+.Chartinterface__Productora p{
+    font-size: 0.9vw;
+}
+
+#Chartinterface__btns-btn1 {
+margin: 0vh 0vw 0vw 2vw;
+height: 2.2vw;
+border-radius: 5px;
+border: 0.5px solid black;
+width: 6vw;
+color: white;
+background-color: black;
+}
+#Chartinterface__btns-btn2 {
+    margin: 0vh 0vw 0vw 0.2vw;
+    height: 2.2vw;
+    border-radius: 5px;
+    border: 0.5px solid black;
+    width: 7vw;
+    color: white;
+    background-color: rgb(20, 103, 221);
+    margin-bottom: 1vw;
+}
+
+#Chartinterface__btns-btn3 {
+    margin: 4vh 0vw 0vw 0.2vw;
+    height: 2.2vw;
+    border-radius: 5px;
+    border: 0.5px solid black;
+    width: 5vw;
+    color: white;
+    background-color: rgb(221, 20, 20);
+}
+
+/* Interfaz de trajes */
+/* ################## */
+/* ################## */
+/* ################## */
+
+#Chartinterface__Trajes-interface{
+    padding: 0;
+    border: 1px solid rgb(128, 123, 123);
+    margin: 1vh 0vw 0vw 1vw;
+    width: 58vw; 
+    height: 300vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#Chartinterface__Trajes-interface--Registrotrajes{
+    background-color: rgb(220, 216, 216);
+margin: 0vh 0vw 0vw ;
+    height: 2vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 58vw;
+    font-size: 0.6vw;
+    border: 1px solid black;
+}
+
+#Chartinterface__Trajes-interface--Title{
+font-size: 1vw;
+color: rgb(0, 98, 255);
+}
+
+#Chartinterface__Trajes-interface--subTitle{
+
+}
+#Chartinterface__Trajes-interface--Plusicon{
+
+}
+
+#Chartinterface__Trajes-interface--input{
+
+}
+#Chartinterface__Trajes-interface--minusicon{
+
+}

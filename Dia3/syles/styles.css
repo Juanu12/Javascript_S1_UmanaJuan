@@ -1,0 +1,80 @@
+
+.body{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgb(112, 214, 235), rgb(255, 255, 255));
+}
+.Background_container{
+    position: absolute;
+    display: flex;
+    margin: 20vw 0vw 0vw 45vw;
+    transform: scale(300%);
+}
+
+#daticos {
+    position: fixed;
+    display: flex;
+    transform: scale(400%);
+}
+#fotico {
+    position: fixed;
+    display: flex;
+    margin: 10vw;
+}
+
+input{
+    margin: 37.5vw 0vw 0vw 46vw;
+    height: 0.6vw;
+    width: 4.5vw;
+    display: flex;
+    position: fixed;
+    transform: scale(400%);
+}
+
+#showUp{
+    display: flex;
+    position: fixed;
+    font-size: 2vw;
+    margin: 31vw 0vw 0vw 45vw;
+}
+
+#PokeImg{
+    display: flex;
+    position: fixed;
+    transform: scale(500%);
+    margin: 25vw 0vw 0vw 49vw
+}
+
+#buttom1{
+    display: flex;
+    position: fixed;
+    transform: scale(500%);
+    margin: 48vw 0vw 0vw 40vw;
+    background-color: rgb(65, 56, 56);
+    color: white;
+    width: 1.5vw;
+    border-radius: 4px;
+}
+
+#buttom2{
+    display: flex;
+    position: fixed;
+    transform: scale(550%);
+    margin: 48vw 0vw 0vw 56vw;
+    background-color: rgb(65, 56, 56);
+    color: white;
+    width: 1.5vw;
+    border-radius: 4px;
+}
+
+.Buttoms{
+    position: fixed;
+    display: grid;
+}
+button{
+    display: flex;
+    position: grid;
+    
+}

@@ -1,0 +1,1 @@
+Se realizó una pokedex, teniendo en cuenta una poke api

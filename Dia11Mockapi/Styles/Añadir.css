@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(166, 215, 228);
+}
+#Name_int{
+display: flex;
+position: fixed;
+background-color: aliceblue;
+border: 1.5px solid;
+margin: 50vh 0vw 0vw 38vw;
+}
+
+#Age_int{
+    display: flex;
+    position: fixed;
+    background-color: aliceblue;
+    border: 1.5px solid;
+    margin: 60vh 0vw 0vw 38vw;
+}
+
+.Botonañadir button{
+    display: flex;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid;
+    border-radius: 20px;
+    width: 30vw;
+    margin: 75vh 0vw 0vw 42vw;
+    text-align: center;
+    justify-content: center;
+}

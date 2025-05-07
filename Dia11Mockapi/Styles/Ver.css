@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(166, 215, 228);
+}
+
+.Title h1{
+    display: flex;
+    position: fixed;
+    margin: 5% 0vw 0vw 40%;
+}
+
+#list{
+    display: flex;
+    position: fixed;
+    margin: 30vh 0vw 0vw 20vw;
+}
+
+#list button{
+    display: flex;
+    position: fixed;
+    margin: 0vh 0vw 0vw 18vw;
+    border-radius: 20vw;
+    width: 30%;
+    height: 6%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.Addstudents button{
+    display: flex;
+    position: fixed;
+    margin: 50vh 0vw 0vw 38vw;
+    border-radius: 20vw;
+    width: 30%;
+    height: 6%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.Addstudents{
+    display: flex;
+    position: fixed;
+    width: 30%;
+    height: 6%;
+}

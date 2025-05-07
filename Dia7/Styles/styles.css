@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "Buttons";
+    src: url(../Fonts/toxigenesis\ bd.ttf);
+}
+.Background_container img{
+display: flex;
+position: absolute;
+overflow: hidden;
+width: 100vw;
+height: 100vh;
+box-shadow: 20 500vw 10vw rgba(0, 0, 0, 0.4);
+
+}
+body{
+    margin: 0%;
+
+}
+.Deco #img1{
+display: flex;
+position: fixed;
+overflow: hidden;
+margin:1vw 0vw 0vw 40vw;
+height: 20vw;
+
+}
+
+.Deco #img2{
+display: flex;
+position: fixed;
+overflow: hidden;
+margin:21vw 0vw 0vw 1vw;
+height: 30vw;
+
+}
+
+
+.PlayButtom button{
+display: flex;
+position: fixed;
+overflow: hidden;
+margin:30vw 0vw 0vw 45vw;
+display: flex;
+position: fixed;
+margin-left: 45vw;
+width: 15vw;
+height: 4vw;
+align-items: center;
+justify-content: center;
+font-family: "Buttons";
+font-size: 1.5vw;
+text-transform: uppercase;
+}
+
+.Intructions button{
+
+display: flex;
+position: fixed;
+overflow: hidden;
+margin: 39vw 0vw 0vw 45vw;
+display: flex;
+position: fixed;
+margin-left: 45vw;
+width: 15vw;
+height: 4vw;
+align-items: center;
+justify-content: center;
+font-family: "Buttons";
+font-size: 1.5vw;
+text-transform: uppercase;
+
+}
+
+.Deco #img3{
+    display: flex;
+    position: fixed;
+    overflow: hidden;
+    margin:18vw 0vw 0vw 63vw;
+    height: 30vw;
+}
+
+
+.loguinbutton button{
+
+display: flex;
+position: fixed;
+overflow: hidden;
+margin: 3vw 0vw 0vw 88vw;
+display: flex;
+position: fixed;
+top: 3vh;
+right: 3vw;
+width: 8vw;
+height: 2.5vw;
+font-size: 1.2vw;
+align-items: center;
+text-align: center;
+justify-content: center;
+font-family: "Buttons";
+font-size: 1.5vw;
+background-color: rgb(223, 223, 142);
+}
+button {
+    font-weight: bold;
+    color: #333;
+    background-color: #f9e67b;
+    border: none;
+    border-radius: 0.8vw;
+    box-shadow: 0 0.3vw 0.6vw rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffe600;
+    transform: scale(1.05);
+    box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.4);
+}
+
+.Audio {
+    display: flex;
+    position: fixed;
+    margin: 8vw 0vw 0vw 5vw;
+    opacity: 1;
+    color: rgba(168, 21, 21, 0);
+    height: 8vw;
+    width: 20vw;
+    
+}
+
+audio{
+    color: rgba(219, 219, 219, 0);
+    height: 2.5vw;
+}
