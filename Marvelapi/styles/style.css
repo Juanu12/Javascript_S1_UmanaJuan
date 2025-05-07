@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+
 }
 
 .Chart-interface{
@@ -11,7 +12,7 @@ body{
     border: 1px solid rgb(128, 123, 123);
     margin: 7vh 0vw 0vw 20vw;
     width: 60vw; 
-    height: 60vh;
+    height: auto;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 
@@ -195,7 +196,7 @@ font-size: 0.7vw;
     border: 2px solid rgb(0, 98, 255);
     margin: 1vh 0vw 0vw 1vw;
     width: 58vw; 
-    height: 300vh;
+    height: 16vw;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -254,7 +255,7 @@ margin: 0vw 0vw 0vw 0.7vw;
 #Chartinterface__Trajes-interface--input {
    margin: 0vw 0vw 0vw 4vw;
    margin-bottom: 1vw;
-   
+
 }
 #Chartinterface__Trajes-interface--input p{
   font-size: 0.7vw;
@@ -268,15 +269,16 @@ margin: 0vw 0vw 0vw 0.7vw;
     width: 1.5vw;
     border-radius: 6px;
     text-align: center;
-    height: 1.4vw;
+    height: auto;
 }
 
 #Chartinterface__Trajes-interface--minusicon--icon {
     font-size: 1.1vw;
-    margin: 2vw 0vw 0vw 0.7vw;
-    background-color: rgb(232, 176, 21);
+    margin: -2.7vw 0vw 0vw 37vw;
+    background-color: rgb(226, 80, 47);
     width: 1.5vw;
     border-radius: 6px;
     text-align: center;
-    height: 1.4vw;
+    height: auto;
+    color: white;
 }
