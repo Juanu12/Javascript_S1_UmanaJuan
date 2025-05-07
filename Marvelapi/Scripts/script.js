@@ -30,6 +30,29 @@ async function Savehero(){
 
 document.getElementById("Chartinterface__btns-btn1").addEventListener("click", function(e){
     e.preventDefault();
-    let trajes = document.getElementById("Chartinterface__Trajes-interface");
-    trajes.innerHTML = ``
+    let trajes = document.getElementById("Char-tinterface__Main");
+    trajes.innerHTML = `  <div id="Chartinterface__Trajes-interface">
+    <div id="Chartinterface__Trajes-interface--Registrotrajes">
+        <pre>  Registro de Trajes</pre>
+    </div>
+    <div id="Chartinterface__Trajes-interface--Title">
+    <p>Trajes del personaje</p>
+    </div>
+    <div id="Chartinterface__Trajes-interface--subTitle">
+    <p> En esta sección podra registrar los nombres de los trajes usados por el actor en cada una de las peliculas</p>
+    </div>
+    <div id="Chartinterface__Trajes-interface--Plusicon">
+        <p>+</p>
+    </div>
+    <div id="Chartinterface__Trajes-interface--input">
+    <p>Nombre traje</p>
+    <input type="text">
+    </div>
+    <div id="Chartinterface__Trajes-interface-minusicon">
+        <p id="Chartinterface__Trajes-interface--minusicon--icon">-</p>
+    </div>
+
+
+</div>`
+
 })
