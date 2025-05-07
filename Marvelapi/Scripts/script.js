@@ -44,15 +44,23 @@ document.getElementById("Chartinterface__btns-btn1").addEventListener("click", f
     <div id="Chartinterface__Trajes-interface--Plusicon">
         <p>+</p>
     </div>
-    <div id="Chartinterface__Trajes-interface--input">
-    <p>Nombre traje</p>
-    <input type="text">
-    </div>
-    <div id="Chartinterface__Trajes-interface-minusicon">
-        <p id="Chartinterface__Trajes-interface--minusicon--icon">-</p>
-    </div>
+ `
+
+});
+
+document.getElementById("Chartinterface__Trajes-interface--Plusicon").addEventListener("click", function(e){
+  e.preventDefault();
+  if(e.target && e.target.classList.contains("Chartinterface__Trajes-interface--Plusicon")){
+    let icon = document.getElementById("Chartinterface__Trajes-interface-Plusicon--Content");
+    icon.innerHTML += `     <div id="Chartinterface__Trajes-interface--input">
+  <p>Nombre traje</p>
+  <input type="text">
+  </div>
+  <div id="Chartinterface__Trajes-interface-minusicon">
+      <p id="Chartinterface__Trajes-interface--minusicon--icon">-</p>
+  </div>
 
 
 </div>`
 
-})
+}})
