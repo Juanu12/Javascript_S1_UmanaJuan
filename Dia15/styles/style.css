@@ -1,0 +1,315 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.Chart-interface{
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    border: 1px solid rgb(128, 123, 123);
+    margin: 7vh 0vw 0vw 20vw;
+    width: 60vw; 
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+.Chart-interface_MainTitle{
+    position: fixed;
+    display: flex;
+    background-color: rgb(235, 235, 235);
+    margin:-2vw 0vw 0vw -0.1vw;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+border: 1px solid;
+    width: 60.1vw;
+    height: 3.5vw;
+}
+.Chart-interface_MainTitle p{
+margin: 2vh 0vw 0vw 1vw;
+font-size: 1.3vw;
+}
+
+.Chartinterface__Nombre-actor{
+    margin: -9.5vh 0vw 0vw 30vw;
+    
+
+}
+.Chartinterface__Nombre-actor p{
+    font-size: 0.9vw;
+
+}
+.Chartinterface__Nombre-actor input{
+width: 25vw;
+height: 4vh;
+border-radius: 5px; 
+border: 0.5px solid rgb(141, 138, 138);
+background-color: rgba(232, 232, 232, 0.527);   
+
+
+}
+
+.Chartinterface__Edad{
+    margin: 1vh 0vw 0vw 1vw
+
+}
+.Chartinterface__Edad input{
+    width: 25vw;
+    height: 3.7vh;
+    border-radius: 5px; 
+    border: 0.5px solid rgb(141, 138, 138);
+    background-color: rgba(232, 232, 232, 0.527);   
+}
+.Chartinterface__Edad p{
+    font-size: 0.9vw;
+
+}
+.Chart-interface__Nombre-Personaje{
+    margin: 1vh 0vw 0vw 1vw;
+}
+.Chart-interface__Nombre-Personaje input{
+    width: 25vw;
+height: 3.7vh;
+border-radius: 5px; 
+border: 0.5px solid rgb(141, 138, 138);
+background-color: rgba(232, 232, 232, 0.527);   
+
+}
+.Chart-interface__Nombre-Personaje p{
+    font-size: 0.9vw;
+
+}
+.Chart-interface_Title{
+    font-size: 1.5vw;
+    margin: 2vh 0vw 0vw 1vw;
+    height: 2.2vw;
+}
+
+.Chartinterface__Ubicacion{
+    margin: -9.2vh 0vw 0vw 30vw;
+
+
+}
+.Chartinterface__Ubicacion p{
+    font-size: 0.9vw;
+}
+.Chartinterface__Ubicacion input{
+    width: 25vw;
+height: 3.7vh;
+border-radius: 5px; 
+border: 0.5px solid rgb(141, 138, 138);
+background-color: rgba(232, 232, 232, 0.527);   
+}
+
+.Chartinterface__Poster{
+    margin: 1vw 0vw 0vw 1vw; 
+}
+.Chartinterface__Poster p{
+    font-size: 0.9vw;
+
+}
+.Chartinterface__Poster input{
+    width: 25vw;
+    height: 3.7vh;
+    border-radius: 5px; 
+    border: 0.5px solid rgb(141, 138, 138);
+    background-color: rgba(232, 232, 232, 0.527);  
+}
+.Chartinterface__Fecha{
+    margin: -9.2vh 0vw 0vw 30vw;
+
+}
+.Chartinterface__Fecha p{
+    font-size: 0.9vw;
+
+}
+
+.Chartinterface__Fecha input{
+    width: 25vw;
+    height: 4vh;
+    border-radius: 5px; 
+    border: 0.5px solid rgb(141, 138, 138);
+    background-color: rgba(232, 232, 232, 0.527);  
+    font-size: 0.8vw;
+}
+.Chartinterface__Productora{
+    margin: 1vw 0vw 0vw 1vw; 
+
+}
+.Chartinterface__Productora select{
+    width: 55vw;
+    height: 4vh;
+    border-radius: 5px; 
+    border: 0.5px solid rgb(141, 138, 138);
+    background-color: rgba(232, 232, 232, 0.527);  
+    font-size: 0.8vw;
+}
+.Chartinterface__Productora p{
+    font-size: 0.9vw;
+}
+
+#Chartinterface__btns-btn1 {
+margin: 0vh 0vw 0vw 2vw;
+height: 2.2vw;
+border-radius: 5px;
+border: 0.5px solid black;
+width: 6vw;
+color: white;
+background-color: black;
+font-size: 0.7vw;
+}
+#Chartinterface__btns-btn2 {
+    margin: 0vh 0vw 0vw 0.2vw;
+    height: 2.2vw;
+    border-radius: 5px;
+    border: 0.5px solid black;
+    width: 7vw;
+    color: white;
+    background-color: rgb(20, 103, 221);
+    margin-bottom: 1vw;
+    font-size: 0.7vw;
+
+}
+
+#Chartinterface__btns-btn3 {
+    margin: 4vh 0vw 0vw 0.2vw;
+    height: 2.2vw;
+    border-radius: 5px;
+    border: 0.5px solid black;
+    width: 5vw;
+    color: white;
+    background-color: rgb(221, 20, 20);
+    font-size: 0.7vw;
+
+}
+
+/* Interfaz de trajes */
+/* ################## */
+/* ################## */
+/* ################## */
+
+#Chartinterface__Trajes-interface{
+    padding: 0;
+    border: 2px solid rgb(0, 98, 255);
+    margin: 1vh 0vw 0vw 1vw;
+    width: 58vw; 
+    height: 13vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#Chartinterface__Trajes-interface--Registrotrajes{
+    background-color: rgb(220, 216, 216);
+margin: 0vh 0vw 0vw ;
+    height: 2vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 58vw;
+    font-size: 0.9vw;
+    border: 1px solid black;
+    padding-bottom: 1vw;
+    padding-left: 0.5vw;
+
+}
+
+#Chartinterface__Trajes-interface--Title{
+font-size: 1.4vw;
+color: rgb(0, 98, 255);
+margin: 0vw 0vw 0vw 0.7vw;
+
+}
+
+#Chartinterface__Trajes-interface--subTitle{
+    font-size: 0.8vw;
+    color: rgb(0, 98, 255);
+    margin: 0vw 0vw 0vw 0.7vw;
+    letter-spacing: 1px;
+    height: 1vw;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+#Chartinterface__Trajes-interface--subTitle p{
+    font-size: 0.8vw;
+  
+    font-family: 'Courier New', Courier, monospace;
+
+}
+#Chartinterface__Trajes-interface--Plusicon{
+    font-size: 1.1vw;
+    margin: 0vw 0vw 0vw 0.7vw;
+    background-color: rgb(232, 176, 21);
+    width: 1.5vw;
+    border-radius: 6px;
+    text-align: center;
+    height: 1.4vw;
+
+}
+
+.Chartinterface__Trajes-interface--input input{
+    height: 1.7vw;
+    width: 32vw;
+    font-size: 0.6vw;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+.Chartinterface__Trajes-interface--input {
+   margin: 0vw 0vw 0vw 4vw;
+   margin-bottom: 1vw;
+
+}
+.Chartinterface__Trajes-interface--input p{
+  font-size: 0.7vw;
+  color: rgb(0, 98, 255);
+
+}
+.Chartinterface__Trajes-interface--minusicon p{
+    font-size: 1.1vw;
+    margin: 3vw 0vw 0vw 0.7vw;
+    background-color: rgb(232, 176, 21);
+    width: 1.5vw;
+    border-radius: 6px;
+    text-align: center;
+    height: auto;
+}
+
+.Chartinterface__Trajes-interface--minusicon--icon {
+    font-size: 1.1vw;
+    margin: -3.2vw 0vw 0vw 26vw;
+    background-color: rgb(226, 80, 47);
+    width: 1.5vw;
+    border-radius: 6px;
+    text-align: center;
+    height: auto;
+    color: white;
+}
+.Chartinterface__Trajes-interface--input-block{
+    font-size: 1.1vw;
+    margin: 0vw 10vw 0vw 7vw;
+    width: 15vw;
+    border-radius: 6px;
+    text-align: center;
+    height: auto;
+    margin-bottom: 1vw;
+}
+
+.Chartinterface__Trajes-interface--input-block input {
+    margin-bottom: 2vw;
+    width: 25vw;
+    height: 1vw;
+}
+
+.Nexthtml button{
+    position: fixed;
+    margin: 3vw 0vw 0vw 70vw;
+    font-size: 1vw;
+    margin-left: 30vw;
+    height: 1.5vw;
+    background-color: rgb(226, 80, 47);
+    color: white;
+}
