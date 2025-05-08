@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    overflow: scroll;
 
 }
 
@@ -196,7 +197,7 @@ font-size: 0.7vw;
     border: 2px solid rgb(0, 98, 255);
     margin: 1vh 0vw 0vw 1vw;
     width: 58vw; 
-    height: 16vw;
+    height: auto;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -281,4 +282,10 @@ margin: 0vw 0vw 0vw 0.7vw;
     text-align: center;
     height: auto;
     color: white;
+}
+
+.Nexthtml button{
+    position: fixed;
+    margin: 3vw 0vw 0vw 30vw;
+    font-size: 1vw;
 }

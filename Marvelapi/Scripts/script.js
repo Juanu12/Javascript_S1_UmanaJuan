@@ -28,39 +28,45 @@ async function Savehero(){
     
 }
 
-document.getElementById("Chartinterface__btns-btn1").addEventListener("click", function(e){
-    e.preventDefault();
-    let trajes = document.getElementById("Char-tinterface__Main");
-    trajes.innerHTML = `  <div id="Chartinterface__Trajes-interface">
-    <div id="Chartinterface__Trajes-interface--Registrotrajes">
-        <pre>  Registro de Trajes</pre>
-    </div>
-    <div id="Chartinterface__Trajes-interface--Title">
-    <p>Trajes del personaje</p>
-    </div>
-    <div id="Chartinterface__Trajes-interface--subTitle">
-    <p> En esta sección podra registrar los nombres de los trajes usados por el actor en cada una de las peliculas</p>
-    </div>
-    <div id="Chartinterface__Trajes-interface--Plusicon">
-        <p>+</p>
-    </div>
- `
+document.getElementById("Chartinterface__btns-btn1").addEventListener("click", function(e) {
+  e.preventDefault();
 
+  let trajes = document.getElementById("Char-tinterface__Main");
+
+  // Insertar el HTML dinámico
+  trajes.innerHTML = `
+      <div id="Chartinterface__Trajes-interface">
+          <div id="Chartinterface__Trajes-interface--Registrotrajes">
+              <pre>  Registro de Trajes</pre>
+          </div>
+          <div id="Chartinterface__Trajes-interface--Title">
+              <p>Trajes del personaje</p>
+          </div>
+          <div id="Chartinterface__Trajes-interface--subTitle">
+              <p>En esta sección podrá registrar los nombres de los trajes usados por el actor en cada una de las películas</p>
+          </div>
+          <div id="Chartinterface__Trajes-interface--Plusicon">
+              <p>+</p>
+          </div>
+          <div id="Chartinterface__Trajes-interface-Plusicon--Content"></div>
+      </div>
+  `;
+
+  document.getElementById("Chartinterface__Trajes-interface--Plusicon").addEventListener("click", function(e) {
+      e.preventDefault();
+
+      const container = document.getElementById("Chartinterface__Trajes-interface-Plusicon--Content");
+
+      container.innerHTML += `
+          <div id="Chartinterface__Trajes-interface--input-block">
+              <p>Nombre traje</p>
+              <input type="text">
+              <div id="Chartinterface__Trajes-interface-minusicon">
+                  <p id="Chartinterface__Trajes-interface--minusicon--icon">-</p>
+              </div>
+          </div>
+      `;
+  });
 });
 
-document.getElementById("Chartinterface__Trajes-interface--Plusicon").addEventListener("click", function(e){
-  e.preventDefault();
-  if(e.target && e.target.classList.contains("Chartinterface__Trajes-interface--Plusicon")){
-    let icon = document.getElementById("Chartinterface__Trajes-interface-Plusicon--Content");
-    icon.innerHTML += `     <div id="Chartinterface__Trajes-interface--input">
-  <p>Nombre traje</p>
-  <input type="text">
-  </div>
-  <div id="Chartinterface__Trajes-interface-minusicon">
-      <p id="Chartinterface__Trajes-interface--minusicon--icon">-</p>
-  </div>
 
-
-</div>`
-
-}})
