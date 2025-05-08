@@ -8,6 +8,14 @@ async function Fetch_Data(){
   }
 
 async function displayHeroes(){
-  data = await Fetch_Data()
-  
+  try{
+  const data = await Fetch_Data()
+  const herolist = document.getElementById("Showheroes");
+  herolist = "";
+  data.forEach(heroes => {
+    
+  });
+} catch{
+
+}
 }
