@@ -283,6 +283,17 @@ margin: 0vw 0vw 0vw 0.7vw;
     height: auto;
     color: white;
 }
+.Chartinterface__Trajes-interface--input-block{
+    font-size: 1.1vw;
+    margin: -10vw 0vw 0vw 37vw;
+    background-color: rgb(226, 80, 47);
+    width: 1.5vw;
+    border-radius: 6px;
+    text-align: center;
+    height: auto;
+    color: white;
+    margin-bottom: 1vw;
+}
 
 .Nexthtml button{
     position: fixed;

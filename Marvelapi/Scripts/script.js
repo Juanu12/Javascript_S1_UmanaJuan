@@ -6,7 +6,7 @@ async function Fetch_Data(){
 
   })
 }
-async function addHero(np,na,edad,ubi,poster,fecha,productotra){
+async function addHero(np,na,edad,ubi,poster,fecha,productotra, trajes){
     const req = {
         "NombrePersonaje":np,
         "Nombreactor":na,
@@ -14,7 +14,8 @@ async function addHero(np,na,edad,ubi,poster,fecha,productotra){
         "Ubicacion":ubi,
         "Poster":poster,
         "Fecha":fecha,
-        "Productora":productotra
+        "Productora":productotra,
+        "Trajes": trajes[id]
     }
     const reponse = await axios.post('https://6818a32a5a4b07b9d1d01b5a.mockapi.io/api/v1/Heroes');
     const data =await Fetch_Data();
@@ -32,8 +33,6 @@ document.getElementById("Chartinterface__btns-btn1").addEventListener("click", f
   e.preventDefault();
 
   let trajes = document.getElementById("Char-tinterface__Main");
-
-  // Insertar el HTML dinámico
   trajes.innerHTML = `
       <div id="Chartinterface__Trajes-interface">
           <div id="Chartinterface__Trajes-interface--Registrotrajes">
