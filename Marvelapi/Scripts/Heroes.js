@@ -6,3 +6,8 @@ async function Fetch_Data(){
   
     })
   }
+
+async function displayHeroes(){
+  data = await Fetch_Data()
+  
+}
