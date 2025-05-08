@@ -36,7 +36,7 @@ document.getElementById("Chartinterface__btns-btn1").addEventListener("click", f
   trajes.innerHTML = `
       <div id="Chartinterface__Trajes-interface">
           <div id="Chartinterface__Trajes-interface--Registrotrajes">
-              <pre>  Registro de Trajes</pre>
+              <p>  Registro de Trajes</p>
           </div>
           <div id="Chartinterface__Trajes-interface--Title">
               <p>Trajes del personaje</p>
@@ -57,11 +57,11 @@ document.getElementById("Chartinterface__btns-btn1").addEventListener("click", f
       const container = document.getElementById("Chartinterface__Trajes-interface-Plusicon--Content");
 
       container.innerHTML += `
-          <div id="Chartinterface__Trajes-interface--input-block">
+          <div class="Chartinterface__Trajes-interface--input-block">
               <p>Nombre traje</p>
               <input type="text">
-              <div id="Chartinterface__Trajes-interface-minusicon">
-                  <p id="Chartinterface__Trajes-interface--minusicon--icon">-</p>
+              <div class="Chartinterface__Trajes-interface-minusicon">
+                  <p class="Chartinterface__Trajes-interface--minusicon--icon">-</p>
               </div>
           </div>
       `;
