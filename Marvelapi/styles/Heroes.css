@@ -16,13 +16,15 @@ margin:0.5vw 0vw 0vw 42vw;
     width: 50vw;
     height: 4vh;
     font-size: 1vw;
-  background-color: rgb(91, 112, 251);
+  background-color: rgb(198, 199, 207);
 }
 
-.Heroes-container__Send button{
+#Heroes-container__Send button{
     margin:2vw 0vw 0vw 74vw;
     width: 5vw;
     height: 4.1vh;
     font-size: 1vw;
+    background-color: rgb(178, 185, 237);
 
 }
+

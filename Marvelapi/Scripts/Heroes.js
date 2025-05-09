@@ -7,15 +7,37 @@ async function Fetch_Data(){
     })
   }
 
+  Fetch_Data()
 async function displayHeroes(){
   try{
   const data = await Fetch_Data()
   const herolist = document.getElementById("Showheroes");
   herolist = "";
   data.forEach(heroes => {
+    if (document.getElementById("Heroes-container__Selector").value === "Dc")
+    herolist.innerHTML +=`
+    <div id="Showheroes">
+    <p>${[heroes.NombrePersonaje]}</p>
+    <p>${[heroes.Nombreactor]}</p>
+    <p>${[heroes.Edadactor]}</p>
+    <p>${[heroes.Ubicacion]}</p>
+    <p>${[heroes.Poster]}</p>
+    <p>${[heroes.Fecha]}</p>
+    <p>${[heroes.Productora]}</p>
+    <p>${[heroes.Trajes]}</p>
     
+    
+    </div> `
   });
 } catch{
+  console.error("Ocurrió un error:", error.message);
+}
+}
 
-}
-}
+document.getElementById("Heroes-container__Send").addEventListener("click" , function(pre) {
+pre.preventDefault()
+
+ displayHeroes()
+
+})
+
