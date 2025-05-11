@@ -1,0 +1,1 @@
+Se terminó desarrollar una api con ayuda del profesor, la cuál consiste en crear una página de tareas, la cual permite , crear , marcar tareas como realizadas o eliminarlas.
