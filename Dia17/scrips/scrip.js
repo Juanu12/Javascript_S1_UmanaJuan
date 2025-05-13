@@ -1,4 +1,4 @@
-const petcontent = document.getElementById ("pets-container")
+const petcontent = document.getElementById ("pets_container")
 
 let accessToken = null;
 
