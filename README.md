@@ -3,7 +3,7 @@
 ## Tabla de contenidos
 | Indice | Titulo  |
 |--|--|
-| 1 | Dia1 |
+| 1 | [Dia1](Dia1) |
 | 2 | Dia2 |
 | 3 | Dia3 |
 | 4 | Dia4 |
