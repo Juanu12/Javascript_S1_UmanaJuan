@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: beige;
+}
+
+.Principal_Container-title p{
+    font-size: 5vw;
+margin: 1vw 0vw 0vw 40vw;
+}
+.Principal_Container-title img{
+height: 10vh;
+margin: -5vw 0vw 0vw 60vw;
+}
+
+
+#Searchpart-input{
+    background-color: white;
+    margin: 10vh 0vw 0vw 20vw;
+    width: 60vw;
+    height: 4vw;
+    border-radius: 20px;
+}
