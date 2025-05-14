@@ -31,9 +31,13 @@ async function alamacenamiento(){
 .then(response=>response.json())
 .then(data=>{
 for (i=0; i<data.animals.length; i++){
-let animals = data.animals[i]
+let mascotas = data.animals[i]
 let images = mascotas.photo[0]?.full || mascotas.photos[0]?.large || mascotas.photos[0]?.medium || mascotas.photos[0]?.small
-contentpets.innerHTML += ` img`
+contentpets.innerHTML += `      <div class="ContenedorAnimales">
+<img class="PetImages" src="${images}"/>
+
+
+<div>`
 
 
 
@@ -53,6 +57,8 @@ contentpets.innerHTML += ` img`
 
 
     }
+    
 
+alamacenamiento()
 
 
