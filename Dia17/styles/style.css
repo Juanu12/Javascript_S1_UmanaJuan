@@ -25,3 +25,26 @@ width: 5vw;
     border: 0.1vw solid black;
 }
 
+.PetImages-colums{
+    height: 60vw;
+width: 2VW;
+display: flex;
+flex-direction: column;
+margin: 1vw 0vw 0vw 20vw;
+}
+
+.ContenedorAnimales{
+    margin: 1VW 0VW 0VW 0VW;
+    display: flex;
+    flex-direction: column;
+    height: 3vw;
+
+
+}
+
+.PetImages-rows{
+    display: flex;
+    flex-direction: row;
+    height: 2vw;
+    width: 3vw;
+}

@@ -1,11 +1,11 @@
-const token = `https:/api.petfinder.com/v2/oauth2/token`;
+const token = `https://api.petfinder.com/v2/oauth2/token`;
 const url = `https://api.petfinder.com/v2/animals`;
 const contentpets = document.getElementById("pets_container");
 
 async function alamacenamiento(){
-    fetch(url, {
+    fetch(token, {
         method: "POST",
-        headers: { "Content-Type":"aplication/x-www-form-urlencoded"},
+        headers: { "Content-Type":"application/x-www-form-urlencoded"},
         body: new URLSearchParams({
             grant_type: "client_credentials",
             client_id:"J4JhI96dFy5hPaDmDKLib2rBGYVcCLCSQpkGrra3WVcHyGUfRb",
@@ -23,7 +23,7 @@ async function alamacenamiento(){
         method: "GET",
         headers: {
             "accept": "*/*",
-            "Content-Type": "aplication/json",
+            "Content-Type": "application/json",
             "Authorization": `Bearer ${token}` 
         }
 
@@ -32,12 +32,12 @@ async function alamacenamiento(){
 .then(data=>{
 for (i=0; i<data.animals.length; i++){
 let mascotas = data.animals[i]
-let images = mascotas.photo[0]?.full || mascotas.photos[0]?.large || mascotas.photos[0]?.medium || mascotas.photos[0]?.small
+let images = mascotas.photos[0]?.full || mascotas.photos[0]?.large || mascotas.photos[0]?.medium || mascotas.photos[0]?.small
 contentpets.innerHTML += `      <div class="ContenedorAnimales">
-<img class="PetImages" src="${images}"/>
+<img class="PetImages-rows" src="${images}"/>
+<img class="PetImages-colums" src="${images}"/>
 
-
-<div>`
+</div>`
 
 
 
